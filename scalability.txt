@@ -1,0 +1,51 @@
+let repos = ["https://github.com/phadej/github",
+			 "https://github.com/JakeWheat/hssqlppp",
+			 "https://github.com/hspec/hspec",
+			 "https://github.com/yesodweb/Shelly.hs",
+			 "https://github.com/vincenthz/hs-tls",
+			 "https://github.com/Paczesiowa/hsenv",
+			 "https://github.com/kallisti-dev/hs-webdriver",
+			 "https://github.com/mvoidex/hsdev"]
+
+
+8 slaves
+real	0m27.488s
+user	0m0.008s
+sys	0m0.000s
+
+7
+real	0m29.738s
+user	0m0.008s
+sys	0m0.008s
+
+6
+real	0m33.156s
+user	0m0.004s
+sys	0m0.008s
+
+5
+real	0m38.131s
+user	0m0.004s
+sys	0m0.004s
+
+4
+real	0m43.425s
+user	0m0.008s
+sys	0m0.000s
+
+3
+real	0m48.906s
+user	0m0.012s
+sys	0m0.008s
+
+
+2
+real	1m11.649s
+user	0m0.016s
+sys	0m0.000s
+
+
+1
+real	1m50.814s
+user	0m0.004s
+sys	0m0.004s
