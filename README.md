@@ -1,2 +1,2 @@
 # CodeComplexity
-Here we are taking  8 git repositores and calculatign their code complexities .
+Here we are taking  8 git repositores and calculating the complexities of each repositores.
