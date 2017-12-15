@@ -1,0 +1,37 @@
+name:                distributed-complexity
+version:             0.1.0.0
+synopsis:            Initial project template from stack
+description:         Please see README.md
+homepage:            https://github.com/pooja2012/CodeComplexity#readme
+author:              Pooja Veerapaneni
+maintainer:          poojaveerapaneni@gmail.com
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Lib
+  build-depends:       base >= 4.7 && < 5
+
+executable distributed-complexity-exe
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , distributed-complexity
+                     , distributed-process
+                     , network-transport-tcp
+                     , distributed-process-simplelocalnet
+                     , split
+                     , MissingH
+                     , process
+                     , argon
+                     , pipes
+                     , pipes-safe
+                     , silently
+                     , directory
+
+source-repository head
+  type:     git
+  location: https://github.com/pooja2012/CodeComplexity
